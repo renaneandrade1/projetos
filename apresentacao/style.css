@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+    height: 98vh;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black url(imagens/pexels-photo-92905.jpeg) center center no-repeat fixed
+    }
+
+header {
+    background-color: rgb(15, 15, 161);
+    text-align: center;
+    padding: 10px;
+    min-height: 100px;
+    margin: 0px;}
+header > p {color: rgb(0, 0, 0);}
+
+h1 {color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;}
+
+nav {
+    background-color: #4a74cf;
+    padding: 3px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.693);}
+    
+nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.353);
+    padding: 10px;
+    margin: auto}
+
+div.quadrado {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    background-position: center center;}
+
+div#q1 {background-image: url(imagens/IMG_20180910_142649621_3.jpg);
+    margin: auto;
+    background-position: center center;}
+
+div#q2 {background-image: url(imagens/IMG_20180326_085203873.jpg);
+    margin: auto;
+    background-position: center center;}
+    
+        
+main img.pequena {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+        }
